@@ -24,7 +24,7 @@
 
   <fieldset>
     <form>Evento
-      <select name="evento">
+      <select name="evento" required>
         <option>---Selecione---</option>
         <option>Voe sem Asas</option>
         <option>Festa junina</option>
@@ -37,9 +37,9 @@
   <fieldset>
     <legend>Informações de Acesso</legend>
 
-    Usuário: <input name="usuario"><br /><br />
-    Senha: <input name="senha" type="password"><br /><br />
-    Confirme a senha: <input name="senha" type="password"><br /><br />
+    Usuário: <input name="usuario" required><br /><br />
+    Senha: <input name="senha" type="password" required><br /><br />
+    Confirme a senha: <input name="senha" type="password" required><br /><br />
 
   </fieldset>
 
@@ -47,9 +47,9 @@
     <legend>Informações Pessoais</legend>
 
 
-    Nome completo: <input name="nome"><br /><br />
-    E-mail: <input name="usuario" type="email"><br /><br />
-    Celular: <input name="tel" type="tel"> (99) 99999-9999<br /><br />
+    Nome completo: <input name="nome" required><br /><br />
+    E-mail: <input name="usuario" type="email" required><br /><br />
+    Celular: <input name="tel" type="tel" required> (99) 99999-9999<br /><br />
 
     <fieldset>
       <legend>Sexo</legend>
