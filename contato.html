@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Contato - IFSP - Pirituba</title>
-<script src="js/disabling.js"></script>
+  <meta charset="UTF-8">
+  <title>Sobre - IFSP - Pirituba</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+
 <body>
-  
-  <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+
+  <header id="cabecalho">
     <nav>
       <object width="100%" height="65px" data="menu.html"></object>
     </nav>
-  </header>  
-  <img src="https://github.com/pwe-redes/pwe_imagens/blob/master/Logo.jpg?raw=true" alt=" " />
 
-  <h1>Contato</h1>
+    <img src="https://github.com/pwe-redes/pwe_imagens/blob/master/Logo.jpg?raw=true" alt=" " />
+  </header>
+  <h1>
+    Mande uma mensagem
+  </h1>
 
-  Contato: (011) 2504-0100
-  
+  <form>
+    <ul>
+      <li>Nome: <br /><input name="nome" required id="cem"></li>
+      <li>Email: <br /><input name="email" type="email" required id="cem"></li>
+      <li>Telefone: (99) 99999-9999<br /><input name="tel" type="tel" required id="cem"> </li>
+      <li>Assunto: <select id="cem"><br />
+          <option>---Selecione---</option>
+          <option>Reclamação</option>
+          <option>Sugestão</option>
+        </select><br />
+      <li>Mensagem: <br /><textarea></textarea></li>
+
+      <li>
+        <fieldset>
+          <legend> Opção de Resposta</legend>
+          E-mail <input name="email" type="checkbox" value="email">
+          Telefone <input name="tel" type="checkbox" value="tel">
+
+
+
+
+    </ul>
+
+
+    </fieldset>
+
+    <button type="submit" form="eventos" id="botao">Enviar</button>
+  </form>
+
+  <footer>
+    <br><br>
+    <div id="my_menu" align="left">
+      <a href="https://www.facebook.com/ifsppirituba"><img
+          src="https://github.com/pwe-redes/pwe_imagens/blob/master/facebook.png?raw=true" width="41" height="43"
+          title="IFSP Facebook" alt="IFSP Facebook"></a>
+    </div>
+    <p>
+      IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011)
+      2504-0100
+    </p>
+  </footer>
+
+
 </body>
+
 </html>

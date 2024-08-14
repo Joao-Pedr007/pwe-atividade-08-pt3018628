@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Sobre - IFSP - Pirituba</title>
-  <script src="js/disabling.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 
@@ -23,8 +23,8 @@
 
 
   <fieldset>
-    <form>Evento
-      <select name="evento" required>
+    <form>Evento<br/>
+      <select name="evento" required id="cem">
         <option>---Selecione---</option>
         <option>Voe sem Asas</option>
         <option>Festa junina</option>
@@ -37,7 +37,7 @@
   <fieldset>
     <legend>Informações de Acesso</legend>
 
-    Usuário: <input name="usuario" required><br /><br />
+    Usuário: <input name="usuario" required id="cem"><br /><br />
     Senha: <input name="senha" type="password" required><br /><br />
     Confirme a senha: <input name="senha" type="password" required><br /><br />
 
@@ -47,9 +47,9 @@
     <legend>Informações Pessoais</legend>
 
 
-    Nome completo: <input name="nome" required><br /><br />
-    E-mail: <input name="usuario" type="email" required><br /><br />
-    Celular: <input name="tel" type="tel" required> (99) 99999-9999<br /><br />
+    Nome completo: <input name="nome" required id="cem"><br /><br />
+    E-mail: <input name="usuario" type="email" required id="cem"><br /><br />
+    Celular: <input name="tel" type="tel" required id="cem"> (99) 99999-9999 <br /><br />
 
     <fieldset>
       <legend>Sexo</legend>
@@ -66,8 +66,8 @@
 
   </fieldset>
 
-  <button type="submit" form="eventos">Inscrever</button>
-  <input type="reset" value="limpar" />
+  <button type="submit" form="eventos" id="botao">Inscrever</button><br />
+  <input type="reset" value="limpar" id="botao"/>
   </form>
 
   <footer>
