@@ -51,11 +51,13 @@ iframe.centro {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr; /* Colunas responsivas */
+  grid-template-columns: 1fr 1fr; /* Colunas de largura flexível */
   gap: 40px; /* Espaçamento entre os itens */
   justify-items: center; /* Centraliza os itens no grid */
-  align-items: center; /* Alinha os itens verticalmente no grid */
+  align-items: center; /* Alinha verticalmente os itens */
   padding: 20px;
+  margin: 0 auto; /* Centraliza a grid horizontalmente */
+  max-width: 1200px; /* Limita a largura total da grid */
 }
 
 .item {
@@ -63,7 +65,8 @@ iframe.centro {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: 600px;
+  width: 100%; /* Ocupa todo o espaço disponível da coluna */
+  max-width: 600px; /* Limita a largura dos itens */
 }
 
 .item h3 {
@@ -81,4 +84,5 @@ iframe.centro {
 
 h1 {
   margin-bottom: 16px;
+  text-align: center; /* Centraliza o título */
 }
