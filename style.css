@@ -75,3 +75,7 @@ iframe.centro {
 .item img {
   width: 400px;
 }
+
+.grid-template-columns {
+	grid-template-columns: 200px 200px;
+}
