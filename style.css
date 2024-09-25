@@ -54,6 +54,6 @@ iframe.centro {
   padding: 10px;
 }
 .grid-item {
-
   text-align: center;
+  display:flex
 }
