@@ -49,7 +49,7 @@ iframe.centro {
 }
 
 .grid-container {
-  display: flex;
+  display: grid;
   grid-template-columns: 200px 200px;
   padding: 10px;
 }
