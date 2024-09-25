@@ -55,12 +55,13 @@ iframe.centro {
     gap: 40px; /* Aumentar o espaçamento entre os itens */
     justify-items: center; /* Centraliza os itens no grid */
     padding: 20px; /* Espaço interno ao redor do grid */
+    align-items: center;
 }
 
 .item {
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 600px;
 }
