@@ -49,11 +49,29 @@ iframe.centro {
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: 200px 200px;
-  padding: 10px;
+  display: grid;  
+  grid-template-columns: 1fr 1fr; /* Colunas responsivas */
+  gap: 40px; /* Aumentar o espaçamento entre os itens */
+  justify-items: center; /* Centraliza os itens no grid */
+  padding: 20px; /* Espaço interno ao redor do grid */
 }
-.grid-item {
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 600px;
+}
+
+.item h3 {
+  margin-top: 24px;
+}
+
+.item p {
+  margin-top: 0;
   text-align: center;
-  display:flex
+}
+
+.item img {
+  width: 400px;
 }
