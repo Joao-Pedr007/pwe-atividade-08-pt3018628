@@ -49,7 +49,7 @@ iframe.centro {
 }
 
 .grid-container {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr;
   background-color: #2196F3;
   padding: 10px;
