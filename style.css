@@ -60,7 +60,7 @@ iframe.centro {
 .item {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-items: center;
     flex-direction: column;
     width: 600px;
 }
