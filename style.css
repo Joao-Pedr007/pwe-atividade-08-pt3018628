@@ -55,7 +55,7 @@ iframe.centro {
   justify-items: center; /* Centraliza os itens no grid */
   padding: 20px; /* Espaço interno ao redor do grid */
 }
-.item {
+.grid-item {
   display: flex;
   align-items: center;
   justify-content: center;
