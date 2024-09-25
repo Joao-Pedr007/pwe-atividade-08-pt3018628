@@ -53,7 +53,7 @@ iframe.centro {
     display: grid;  
     grid-template-columns: 1fr 1fr; /* Colunas responsivas */
     gap: 40px; /* Aumentar o espaçamento entre os itens */
-    justify-items: center; /* Centraliza os itens no grid */
+    justify-content: center; /* Centraliza os itens no grid */
     padding: 20px; /* Espaço interno ao redor do grid */
 }
 
