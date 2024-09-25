@@ -62,20 +62,3 @@ iframe.centro {
   flex-direction: column;
   width: 600px;
 }
-
-.item h3 {
-  margin-top: 24px;
-}
-
-.item p {
-  margin-top: 0;
-  text-align: center;
-}
-
-.item img {
-  width: 400px;
-}
-
-.grid-template-columns {
-	grid-template-columns: 200px 200px;
-}
